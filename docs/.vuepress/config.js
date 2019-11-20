@@ -9,7 +9,7 @@ module.exports = {
         //浏览器的标签栏的网页图标，第一个'/'会遍历public文件夹的文件
       ],  
   ],
-  base: '/', // 这是部署到github相关的配置
+  base: '/awesome-bookmarks/', // 这是部署到github相关的配置
   markdown: {
     lineNumbers: false // 代码块显示行号
   },
@@ -34,7 +34,7 @@ module.exports = {
         { text: 'BLOG', link: '/blog/' },
 
         //格式三：跳转至外部网页，需http/https前缀
-        { text: 'Github', link: 'https://github.com/297087852' },
+        { text: 'Github', link: 'https://github.com/297087852/awesome-bookmarks' },
     ],
     
     //侧边导航栏：会根据当前的文件路径是否匹配侧边栏数据，自动显示/隐藏
